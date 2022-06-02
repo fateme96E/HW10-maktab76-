@@ -1,0 +1,84 @@
+.container {
+    margin: 100px auto;
+    max-height: 500px;
+}
+
+.image-container img {
+    max-width: 34rem;
+    height: 284px;
+    margin-left: 5%;
+}
+
+.form-container {
+    margin-left: 20%;
+}
+
+.sign-in-container {
+    width: 200px;
+}
+
+.sign-in-container p {
+    font-size: 18px;
+    color: #3d3d3d;
+}
+.app-icons {
+    display: flex;
+    width: 130px;
+}
+
+.app-icons a {
+    width: 37px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: unset;
+    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 69%);
+    font-size: smaller;
+}
+
+.form-separator {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: bold;
+}
+hr {
+    width: 10rem;
+    color: gray;
+}
+
+.form-group, .form-check-container {
+    width: 23rem;
+}
+
+.form-check-input, .form-check-label {
+    cursor: pointer;
+}
+
+.form-check-container a {
+    text-decoration: unset;
+}
+
+.btn {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    line-height: 2rem;
+    box-shadow: 0px 0px 3px 0px #000000b0;
+    font-weight: bold;
+}
+
+.register-text-container a {
+    text-decoration: unset;
+    color: red;
+}
+
+.container footer {
+    margin-top: 200px;
+}
+
+.footer-app-container a {
+    text-decoration: unset;
+}
+
