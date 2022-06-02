@@ -1,0 +1,35 @@
+.border-b-red{
+    border-bottom: 3px solid #ff0606;
+}
+
+.btn-container {
+    font-size: 0.8rem;
+    color: gray;
+    height: 2rem;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.btn-gray {
+    background-color: #ffffff;
+    color: #6d6d6d;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    width: 2.8rem;
+}
+
+.btn-gray:hover {
+    background-color: #a7a7a7;
+    border: 1px solid #a1a1a1;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #f29c9c55;
+    color: #ff0000;
+    width: 20rem;
+    height: 2.3rem;
+    border: none;
+    font-size: small;
+}
