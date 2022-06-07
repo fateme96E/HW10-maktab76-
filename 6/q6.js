@@ -5,4 +5,4 @@ new Promise(function(resolve, reject) {
     }, 1000);
 }).catch(alert)
 
-//the error is not generated when promise is executing, and it is generated later, so promise do ot handle it and we can say that is is ignored by promise.
+//the error is not generated when promise is executing, and it is generated later, so promise do not handle it and we can say that is is ignored by promise.
